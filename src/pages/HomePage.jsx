@@ -135,7 +135,7 @@ function HomePage() {
           {/* Stats Counters */}
           <div className="flex flex-col md:flex-row items-start gap-8 md:gap-12 animate-slide-up">
             <div>
-              <div className="text-4xl md:text-5xl font-bold mb-2">10+</div>
+              <div className="text-4xl md:text-5xl font-bold mb-2">5+</div>
               <div className="text-lg md:text-xl text-gray-200">Years Experience</div>
             </div>
             <div>
