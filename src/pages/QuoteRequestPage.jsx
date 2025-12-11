@@ -367,13 +367,8 @@ This email was sent from the Load Movers quote request form.`
                   </div>
                   <div>
                     <div className="font-semibold mb-1">Call Us</div>
-<<<<<<< HEAD
-                    <a href="tel:+27847571656" className="text-white/90 hover:text-white transition-smooth block">+27 847 571 656</a>
-                    <a href="tel:+27639697618" className="text-white/90 hover:text-white transition-smooth block">+27 639 697 618</a>
-=======
-                     <a href="tel:+27847571656" className="text-white font-semibold text-lg hover:text-blue-200 transition-smooth block">+27 847 571 656</a>
+                    <a href="tel:+27847571656" className="text-white font-semibold text-lg hover:text-blue-200 transition-smooth block">+27 847 571 656</a>
                     <a href="tel:+27639697618" className="text-white font-semibold text-lg hover:text-blue-200 transition-smooth block">+27 639 697 618</a>
->>>>>>> 88002aacfa32b9469948d3798f7b873ccf754a16
                   </div>
                 </div>
                 
@@ -401,11 +396,7 @@ This email was sent from the Load Movers quote request form.`
                     </svg>
                   </div>
                   <div>
-<<<<<<< HEAD
                     <div className="font-semibold mb-1">Visit Us</div>
-=======
-                    <div className="font-semibold mb-1">Address</div>
->>>>>>> 88002aacfa32b9469948d3798f7b873ccf754a16
                     <div className="text-white/90">207 Kings Road, Brooklyn, Cape Town</div>
                   </div>
                 </div>
