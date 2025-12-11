@@ -2,6 +2,7 @@ import Footer from '../components/Footer'
 import Button from '../components/Button'
 import Card from '../components/Card'
 import SectionWrapper from '../components/SectionWrapper'
+import StarRating from '../components/StarRating'
 import Gallery from '../components/Gallery'
 
 /**
@@ -88,6 +89,50 @@ function HomePage() {
       title: 'Excellent Customer Support',
       description: 'Our customer service team is available to assist you every step of the way.',
       icon: '💬'
+    }
+  ]
+  
+  // Testimonials data
+  const testimonials = [
+    {
+      id: 1,
+      name: 'Sarah Johnson',
+      descriptor: 'Business Owner',
+      rating: 5,
+      review: 'Load Movers made our office relocation seamless. Professional, efficient, and careful with all our equipment. Highly recommend!',
+      photo: 'https://i.pravatar.cc/150?img=47'
+    },
+    {
+      id: 2,
+      name: 'Michael Chen',
+      descriptor: 'Homeowner',
+      rating: 5,
+      review: 'Outstanding service for our home move. The team was punctual, careful, and friendly. Everything arrived in perfect condition.',
+      photo: 'https://i.pravatar.cc/150?img=13'
+    },
+    {
+      id: 3,
+      name: 'Emily Rodriguez',
+      descriptor: 'Operations Director',
+      rating: 5,
+      review: 'Best moving experience we\'ve had. Affordable pricing, professional team, and excellent communication throughout the process.',
+      photo: 'https://i.pravatar.cc/150?img=45'
+    },
+    {
+      id: 4,
+      name: 'David Thompson',
+      descriptor: 'Construction Manager',
+      rating: 5,
+      review: 'Used their heavy equipment transport service. Expert handling and on-time delivery. Will definitely use again!',
+      photo: 'https://i.pravatar.cc/150?img=12'
+    },
+    {
+      id: 5,
+      name: 'Lisa Anderson',
+      descriptor: 'Homeowner',
+      rating: 5,
+      review: 'Quick rubble removal service after our renovation. Clean, efficient, and reasonably priced. Very satisfied!',
+      photo: 'https://i.pravatar.cc/150?img=20'
     }
   ]
   
@@ -218,11 +263,44 @@ function HomePage() {
         </div>
       </SectionWrapper>
       
+      {/* Testimonials Section */}
+      <SectionWrapper 
+        title="What Our Customers Say" 
+        subtitle="Don't just take our word for it - hear from our satisfied clients"
+        className="bg-gray-50"
+        id="testimonials"
+      >
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+          {testimonials.map((testimonial, index) => (
+            <Card 
+              key={testimonial.id}
+              className="animate-slide-up bg-white"
+              style={{ animationDelay: `${index * 0.1}s` }}
+            >
+              <div className="mb-4">
+                <StarRating rating={testimonial.rating} size="md" />
+              </div>
+              <p className="text-gray-700 mb-6 italic">"{testimonial.review}"</p>
+              <div className="flex items-center gap-3">
+                <img 
+                  src={testimonial.photo} 
+                  alt={testimonial.name}
+                  className="w-12 h-12 rounded-full object-cover border-2 border-gray-200"
+                />
+                <div>
+                  <p className="font-semibold text-gray-900">— {testimonial.name}</p>
+                  <p className="text-sm text-gray-600">{testimonial.descriptor}</p>
+                </div>
+              </div>
+            </Card>
+          ))}
+        </div>
+      </SectionWrapper>
+      
       {/* Gallery Section */}
       <SectionWrapper 
         title="Our Work in Action" 
         subtitle="See Load Movers in action - from furniture moves to construction hauling"
-        className="bg-gray-50"
         id="gallery"
       >
         <Gallery />

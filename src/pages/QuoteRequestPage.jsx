@@ -78,7 +78,7 @@ ${formData.additionalDetails}
 This email was sent from the Load Movers quote request form.`
 
     // Create mailto link
-    const mailtoLink = `mailto:info@loadmovers.co.zw?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+    const mailtoLink = `mailto:info@loadmoversltd.co.za?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
     
     // Open email client
     window.location.href = mailtoLink
@@ -367,9 +367,8 @@ This email was sent from the Load Movers quote request form.`
                   </div>
                   <div>
                     <div className="font-semibold mb-1">Call Us</div>
-                    <a href="tel:+263771234567" className="text-white/90 hover:text-white transition-smooth">
-                      +263 77 123 4567
-                    </a>
+                    <a href="tel:+27847571656" className="text-white/90 hover:text-white transition-smooth block">+27 847 571 656</a>
+                    <a href="tel:+27639697618" className="text-white/90 hover:text-white transition-smooth block">+27 639 697 618</a>
                   </div>
                 </div>
                 
@@ -382,8 +381,8 @@ This email was sent from the Load Movers quote request form.`
                   </div>
                   <div>
                     <div className="font-semibold mb-1">Email Us</div>
-                    <a href="mailto:info@loadmovers.co.zw" className="text-white/90 hover:text-white transition-smooth">
-                      info@loadmovers.co.zw
+                    <a href="mailto:info@loadmoversltd.co.za" className="text-white/90 hover:text-white transition-smooth">
+                      info@loadmoversltd.co.za
                     </a>
                   </div>
                 </div>
@@ -398,7 +397,7 @@ This email was sent from the Load Movers quote request form.`
                   </div>
                   <div>
                     <div className="font-semibold mb-1">Visit Us</div>
-                    <div className="text-white/90">123 Industrial Rd, Harare</div>
+                    <div className="text-white/90">207 Kings Road, Brooklyn, Cape Town</div>
                   </div>
                 </div>
               </div>

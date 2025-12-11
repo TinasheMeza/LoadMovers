@@ -62,6 +62,11 @@ function Footer() {
                 </a>
               </li>
               <li>
+                <a href="#testimonials" className="hover:text-white transition-smooth">
+                  Testimonials
+                </a>
+              </li>
+              <li>
                 <a href="#gallery" className="hover:text-white transition-smooth">
                   Gallery
                 </a>
