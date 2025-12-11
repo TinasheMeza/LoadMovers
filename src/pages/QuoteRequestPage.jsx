@@ -367,12 +367,8 @@ This email was sent from the Load Movers quote request form.`
                   </div>
                   <div>
                     <div className="font-semibold mb-1">Call Us</div>
-                    <a href="tel:++27847571656" className="text-white/90 hover:text-white transition-smooth">
-                      +27 847 571 656
-                    </a>
-                    <a href="tel:+27639697618" className="text-white/90 hover:text-white transition-smooth">
-                      +27 639 697 618
-                    </a>
+                     <a href="tel:+27847571656" className="text-white font-semibold text-lg hover:text-blue-200 transition-smooth block">+27 847 571 656</a>
+                    <a href="tel:+27639697618" className="text-white font-semibold text-lg hover:text-blue-200 transition-smooth block">+27 639 697 618</a>
                   </div>
                 </div>
                 
