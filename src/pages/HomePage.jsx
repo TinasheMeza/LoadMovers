@@ -5,6 +5,7 @@ import SectionWrapper from '../components/SectionWrapper'
 import StarRating from '../components/StarRating'
 import Gallery from '../components/Gallery'
 
+
 /**
  * Home Page Component
  * Main landing page with all sections: Hero, Services, Why Choose Us, Testimonials, CTA
@@ -197,10 +198,10 @@ function HomePage() {
       
       {/* Services Section */}
       <SectionWrapper 
+        id="services"
         title="Our Services" 
         subtitle="Comprehensive moving and logistics solutions tailored to your needs"
         className="bg-gray-50"
-        id="services"
       >
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {services.map((service, index) => (

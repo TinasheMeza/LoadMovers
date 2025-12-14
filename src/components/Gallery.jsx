@@ -93,7 +93,7 @@ function Gallery() {
   }, [images.length])
 
   return (
-    <div className="relative w-full max-w-6xl mx-auto lg:w-3/5 lg:max-w-none">
+    <div id="gallery" className="relative w-full max-w-6xl mx-auto lg:w-3/5 lg:max-w-none">
       {/* Main Image Container */}
       <div className="relative aspect-video md:aspect-[16/10] rounded-lg overflow-hidden bg-gray-200 shadow-xl">
         {imageErrors[images[currentIndex].id] ? (

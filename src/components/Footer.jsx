@@ -57,12 +57,12 @@ function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="#services" className="hover:text-white transition-smooth">
-                  Services
-                </a>
+              <a href="#services" className="hover:text-white transition-smooth text-left block">
+               Services
+              </a>
               </li>
               <li>
-                <a href="#testimonials" className="hover:text-white transition-smooth">
+                <a href="#testimonials" className="hover:text-white transition-smooth text-left">
                   Testimonials
                 </a>
               </li>

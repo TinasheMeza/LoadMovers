@@ -15,7 +15,7 @@ function StarRating({ rating = 5, size = 'md' }) {
   }
   
   return (
-    <div className="flex items-center gap-1">
+    <div id="testimonials" className="flex items-center gap-1">
       {[...Array(5)].map((_, index) => (
         <svg
           key={index}
