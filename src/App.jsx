@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 import HomePage from './pages/HomePage'
 import QuoteRequestPage from './pages/QuoteRequestPage'
 
@@ -11,11 +12,13 @@ function App() {
   console.log('App component rendered')
   
   return (
-    <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/quote" element={<QuoteRequestPage />} />
-    </Routes>
-    
+    <>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/quote" element={<QuoteRequestPage />} />
+      </Routes>
+      <SpeedInsights />
+    </>
   )
 }
 
